@@ -120,7 +120,7 @@
 
       box(assignment + ""),
 
-      line(length: calc.max(assignment.len() * 1em, 10em), stroke: 0.5pt),
+      line(length: calc.max(calc.min(assignment.len() * 1em, 38em), 10em), stroke: 0.5pt),
     ),
   )
 ]
